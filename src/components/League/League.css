@@ -1,0 +1,19 @@
+.league-card-body{
+    background-color: rgb(22, 57, 8);
+    padding-top: 15px;  
+}
+.logo{ 
+    width: 100px;
+    height: 100px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+.card{
+    margin-top: 5%;
+    height: 380px;
+}
+.league-card{
+    border-radius: 10px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgb(206, 203, 255) 0%, rgba(199, 195, 195, 0.922) 35%, rgb(134, 140, 142) 100%);
+}

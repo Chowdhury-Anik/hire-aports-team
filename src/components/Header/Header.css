@@ -1,0 +1,24 @@
+
+.headerBanner {
+    background-image: url("../images/header-banner.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+  }
+  .centered {
+    position: absolute;
+    top: 16%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .headerLogo {
+    height: 100px;
+    width: 100px;
+    
+    text-align: center;
+  }
+  .bannerImage {
+    margin-top: 10px;
+  }

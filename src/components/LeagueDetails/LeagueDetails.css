@@ -1,0 +1,63 @@
+body{
+    overflow-x: hidden;
+}
+.container{
+    background-color: rgb(1, 22, 42);
+}
+.imageDetails{
+    height: 350px;
+    width: 100%;
+    align-items: center;
+}
+.club-information{
+    display:flex;
+    background-color: rgb(10, 136, 255);
+    border-radius: 10px;
+    margin-top:20px;
+    
+    
+
+
+}
+.club-text-area{
+color:white;
+margin-top: 5px;
+margin-left: 10px;
+}
+.playerImage{
+    height: 200px;
+    max-width: 100%;
+    margin-top: 15px;
+    border-radius:10px;
+    margin-right: 15px;
+    
+    
+}
+.logo{
+    text-align: center;
+}
+.description p{
+color:white;
+margin-top:20px;
+
+
+}
+.body-area{
+    background-color:rgb(1, 22, 42);
+    margin-left: 80px;
+    margin-right:80px;
+} 
+.footer-area{
+
+    height:100px;
+    text-align: center;
+}
+.socialIcon{
+    height: 30px;
+    width: 30px;
+    color: white;
+    margin: 0 15px;
+    border-radius: 50%;
+    display:inline-block;
+    margin-top:20px;
+}
