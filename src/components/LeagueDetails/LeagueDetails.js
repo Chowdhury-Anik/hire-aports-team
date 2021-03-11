@@ -36,22 +36,30 @@ const LeagueDetails = () => {
             </div>
 
             <div className="body-area">
-                <div className="club-information  justify-content-between">
-                    <div className="club-text-area">
-                        <h3>{details.strLeague}</h3>
-                        <p><FontAwesomeIcon icon={faMapMarkerAlt} />
-                          Founded:  {strStadium}, {details.intFormedYear}</p>
+                <div className="club-information justify-content-between">
+                    <div className="row  ">
+                        <div className="col-md-6">
+                            <div className="club-text-area">
+                                <h3>{details.strLeague}</h3>
+                                <p><FontAwesomeIcon icon={faMapMarkerAlt} />
+                                    Founded:  {strStadium}, {details.intFormedYear}</p>
 
-                        <p><FontAwesomeIcon icon={faFlag} />  Country: {strCountry}</p>
-                        <p><FontAwesomeIcon icon={faFutbol} />  Sports Type: {strSport}</p>
+                                <p><FontAwesomeIcon icon={faFlag} />  Country: {strCountry}</p>
+                                <p><FontAwesomeIcon icon={faFutbol} />  Sports Type: {strSport}</p>
 
-                        <p><FontAwesomeIcon icon={faMars} />  Gender: {strGender}</p>
+                                <p><FontAwesomeIcon icon={faMars} />  Gender: {strGender}</p>
 
-                    </div>
-                    <div className="playerImage">
-                        {
-                            details.strGender === 'Male' ? <img className='playerImage' src={Male} alt="" /> : <img className='playerImage' src={Female} alt="" />
-                        }
+                            </div>
+
+                        </div>
+                        <div className="col-md-6 playerImage">
+                            <div>
+                                {
+                                    details.strGender === 'Male' ? <img className='playerImage' src={Male} alt="" /> : <img className='playerImage' src={Female} alt="" />
+                                }
+
+                            </div>
+                        </div>
 
                     </div>
                 </div>

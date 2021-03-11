@@ -16,23 +16,23 @@ body{
     margin-top:20px;
     
     
+    
 
 
 }
 .club-text-area{
 color:white;
 margin-top: 5px;
-margin-left: 10px;
+margin-left: 5px;
 }
 .playerImage{
-    
+
     height: 200px;
     max-width: 100%;
     margin-top: 15px;
     border-radius:10px;
-    margin-right: 15px;
     
-    
+
 }
 .logo{
     text-align: center;
