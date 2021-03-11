@@ -7,8 +7,8 @@ import './LeagueDetails.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faMars, faMapMarkerAlt, faFlag, faFutbol } from '@fortawesome/free-solid-svg-icons';
 import { faFacebook, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import male from '../images/male.png';
-import female from '../images/female.png';
+import Male from '../images/male.png';
+import Female from '../images/female.png';
 
 
 
@@ -36,7 +36,7 @@ const LeagueDetails = () => {
             </div>
 
             <div className="body-area">
-                <div className="club-information    justify-content-between">
+                <div className="club-information  justify-content-between">
                     <div className="club-text-area">
                         <h3>{details.strLeague}</h3>
                         <p><FontAwesomeIcon icon={faMapMarkerAlt} />
@@ -50,7 +50,7 @@ const LeagueDetails = () => {
                     </div>
                     <div className="playerImage">
                         {
-                            details.strGender === 'Male' ? <img className='playerImage' src={strTeamFanart1} alt="" /> : <img className='playerImage' src={strTeamFanart2} alt="" />
+                            details.strGender === 'Male' ? <img className='playerImage' src={Male} alt="" /> : <img className='playerImage' src={Female} alt="" />
                         }
 
                     </div>
