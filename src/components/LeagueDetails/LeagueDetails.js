@@ -25,7 +25,7 @@ const LeagueDetails = () => {
             .then(data => setDetails(data.teams[0]));
     }, [idTeam]);
 
-    const { strStadium, strStadiumThumb, strCountry, strTeamFanart1, strTeamFanart2, strSport, strGender, strDescriptionEN, strFacebook, strTwitter, strWebsite } = details;
+    const { strStadium, strStadiumThumb, strCountry, strSport, strGender, strDescriptionEN, strFacebook, strTwitter, strWebsite } = details;
 
 
     return (
