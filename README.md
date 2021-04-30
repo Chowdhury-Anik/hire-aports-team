@@ -1,14 +1,25 @@
-# Creating a React Bootstrap App for Programming Hero.
+## Welcome to sports team building portal
 
-This project was created for Programming Hero. [https://web.programming-hero.com/]
+# World Sports 
+This is team expoloring website where user can find their favorite club and can choose a team to know more about.User can 
+User and device friendly design with the responsive technology could be change the mindset of a users.
 
-## Available this Scripts
+## Features 
 
-This is a private and testing project hosted by [https://netlify.com]
+#### User can expolor the team by clicking on the button and it will take detail page.
+#### user can see all dynamic data loaded from API.
+#### Used API for showing team details and others. 
 
-Also you can find at [https://github.com/]
 
-## Author
+## Technology used
 
-Author profile [https://github.com/Chowdhury-Anik]
-# react-router-Chowdhury-Anik
+### React,HTML5, CSS3,React Bootstrap,Web-vitals,properJS,Fortawesome,jquery and some other technologies were used to develop this website.
+
+
+
+
+## Live site is here 
+[Click here to visit live site](https://sport-team.netlify.app/)
+
+
+### Thanks for visiting us.
