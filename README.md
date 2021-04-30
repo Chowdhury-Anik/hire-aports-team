@@ -1,8 +1,7 @@
 ## Welcome to sports team building portal
 
 # World Sports 
-This is team expoloring website where user can find their favorite club and can choose a team to know more about.User can 
-User and device friendly design with the responsive technology could be change the mindset of a users.
+This is a team exploring website where user can find their favorite club and can choose a team to know more about. User can User and device friendly design with responsive technology could change the mindset of a user.
 
 ## Features 
 
